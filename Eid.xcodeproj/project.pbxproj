@@ -12,6 +12,13 @@
 		E87972C820D1CEAF00D96B5B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E87972C620D1CEAF00D96B5B /* Main.storyboard */; };
 		E87972CA20D1CEB000D96B5B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E87972C920D1CEB000D96B5B /* Assets.xcassets */; };
 		E87972CD20D1CEB000D96B5B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E87972CB20D1CEB000D96B5B /* LaunchScreen.storyboard */; };
+		E87972DC20D2102400D96B5B /* Tajawal-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E87972D720D20DF500D96B5B /* Tajawal-Medium.ttf */; };
+		E87972DD20D2104E00D96B5B /* Tajawal-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E87972D420D20DF500D96B5B /* Tajawal-Black.ttf */; };
+		E87972DE20D2105000D96B5B /* Tajawal-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E87972D620D20DF500D96B5B /* Tajawal-Bold.ttf */; };
+		E87972DF20D2105200D96B5B /* Tajawal-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E87972D820D20DF500D96B5B /* Tajawal-ExtraBold.ttf */; };
+		E87972E020D2105500D96B5B /* Tajawal-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E87972D920D20DF500D96B5B /* Tajawal-ExtraLight.ttf */; };
+		E87972E120D2105700D96B5B /* Tajawal-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E87972DA20D20DF500D96B5B /* Tajawal-Light.ttf */; };
+		E87972E220D2105B00D96B5B /* Tajawal-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E87972D520D20DF500D96B5B /* Tajawal-Regular.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +29,13 @@
 		E87972C920D1CEB000D96B5B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E87972CC20D1CEB000D96B5B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E87972CE20D1CEB000D96B5B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E87972D420D20DF500D96B5B /* Tajawal-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Tajawal-Black.ttf"; sourceTree = "<group>"; };
+		E87972D520D20DF500D96B5B /* Tajawal-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Tajawal-Regular.ttf"; sourceTree = "<group>"; };
+		E87972D620D20DF500D96B5B /* Tajawal-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Tajawal-Bold.ttf"; sourceTree = "<group>"; };
+		E87972D720D20DF500D96B5B /* Tajawal-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Tajawal-Medium.ttf"; sourceTree = "<group>"; };
+		E87972D820D20DF500D96B5B /* Tajawal-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Tajawal-ExtraBold.ttf"; sourceTree = "<group>"; };
+		E87972D920D20DF500D96B5B /* Tajawal-ExtraLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Tajawal-ExtraLight.ttf"; sourceTree = "<group>"; };
+		E87972DA20D20DF500D96B5B /* Tajawal-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Tajawal-Light.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,8 +74,23 @@
 				E87972C920D1CEB000D96B5B /* Assets.xcassets */,
 				E87972CB20D1CEB000D96B5B /* LaunchScreen.storyboard */,
 				E87972CE20D1CEB000D96B5B /* Info.plist */,
+				E87972DB20D2101300D96B5B /* Fonts */,
 			);
 			path = Eid;
+			sourceTree = "<group>";
+		};
+		E87972DB20D2101300D96B5B /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				E87972D420D20DF500D96B5B /* Tajawal-Black.ttf */,
+				E87972D620D20DF500D96B5B /* Tajawal-Bold.ttf */,
+				E87972D820D20DF500D96B5B /* Tajawal-ExtraBold.ttf */,
+				E87972D920D20DF500D96B5B /* Tajawal-ExtraLight.ttf */,
+				E87972DA20D20DF500D96B5B /* Tajawal-Light.ttf */,
+				E87972D720D20DF500D96B5B /* Tajawal-Medium.ttf */,
+				E87972D520D20DF500D96B5B /* Tajawal-Regular.ttf */,
+			);
+			path = Fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -122,9 +151,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E87972DC20D2102400D96B5B /* Tajawal-Medium.ttf in Resources */,
+				E87972E120D2105700D96B5B /* Tajawal-Light.ttf in Resources */,
 				E87972CD20D1CEB000D96B5B /* LaunchScreen.storyboard in Resources */,
 				E87972CA20D1CEB000D96B5B /* Assets.xcassets in Resources */,
+				E87972DF20D2105200D96B5B /* Tajawal-ExtraBold.ttf in Resources */,
 				E87972C820D1CEAF00D96B5B /* Main.storyboard in Resources */,
+				E87972E220D2105B00D96B5B /* Tajawal-Regular.ttf in Resources */,
+				E87972DE20D2105000D96B5B /* Tajawal-Bold.ttf in Resources */,
+				E87972DD20D2104E00D96B5B /* Tajawal-Black.ttf in Resources */,
+				E87972E020D2105500D96B5B /* Tajawal-ExtraLight.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
