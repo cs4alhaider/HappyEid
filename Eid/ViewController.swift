@@ -19,7 +19,7 @@ class ViewController: UIViewController {
     private var shapeLayer: CAShapeLayer!
     private var pulsatingLayer: CAShapeLayer!
     
-    private let myNameText: String = ""
+    private let myNameText: String = "YourNameHere"
     private let eidMessage: String = "يهنئك بعيد الفطر المبارك"
     private let eidMobark: String = "عيدك مبارك\nوكل عام وأنت بخير 🌹"
     
@@ -114,7 +114,7 @@ class ViewController: UIViewController {
     fileprivate func looping() {
         print("Attempting to animate")
         let basicAnimation = CABasicAnimation(keyPath: "strokeEnd")
-        basicAnimation.toValue = 1 // here i can play a bit to show the current usege of internet data for the user
+        basicAnimation.toValue = 1
         basicAnimation.duration = 4
         basicAnimation.fillMode = kCAFillModeForwards
         basicAnimation.isRemovedOnCompletion = false
